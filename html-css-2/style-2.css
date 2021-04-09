@@ -1,0 +1,217 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container1 {
+  width: 100vw;
+  height: 120px;
+  background-color: rgb(116, 250, 232);
+  margin: 0px;
+}
+
+#bigText {
+  display: inline-block;
+  margin: 0px;
+  font-size: xx-large;
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+#bigText2 {
+  font-size: x-large;
+  position: relative;
+  left: 20px;
+  width: fit-content;
+  margin: 0px;
+  top: 10px;
+}
+
+#container2 {
+  height: 300px;
+  width: 95vw;
+  border: dashed darkblue 2px;
+  margin: 20px;
+}
+
+#rectangle1 {
+  display: inline-block;
+  box-sizing: content-box;
+  height: 100px;
+  width: 300px;
+  margin: 15px;
+  border: solid rgb(255, 0, 0) 5px;
+  background-color: purple;
+  position: relative;
+  top: 160px;
+}
+
+#rectangle2 {
+  display: inline-block;
+  box-sizing: content-box;
+  height: 110px;
+  width: 110px;
+  margin: 15px;
+  border: 0px;
+  background-color: rgb(0, 17, 255);
+  position: relative;
+  top: 150px;
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.);
+}
+
+#rectangle3 {
+  /* display: inline-block; */
+  height: 250px;
+  width: 250px;
+  background-color: salmon;
+  position: relative;
+  left: 530px;
+  bottom: 115px;
+  border: solid 5px
+  /* sorry I know the border is big but I wanted it to look nice */
+}
+
+#bigText3 {
+  font-size: x-large;
+  position: relative;
+  left: 20px;
+  width: fit-content;
+  margin: 0px;
+  top: 10px;
+}
+
+#container3 {
+  height: 600px;
+  width: 95vw;
+  border: dashed darkblue 2px;
+  margin: 20px;
+}
+
+#circle1 {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: solid 2px;
+  position: relative;
+  bottom: 30px;
+  left: 75px;
+}
+
+#img1 {
+  box-sizing: content-box;
+  height: 70px;
+  width: 70px;
+  position: relative;
+  left: 30px;
+  top: 20px;
+
+}
+
+#circle2 {
+  display: inline-block;
+  height: 145px;
+  width: 145px;
+  border-radius: 50%;
+  border: solid 2px;
+  position: relative;
+  top: 95px;
+  right: 65px;
+}
+
+#img2 {
+  box-sizing: content-box;
+  height: 70px;
+  width: 120px;
+  position: relative;
+  left: 10px;
+  top: 40px;
+}
+
+#circle3 {
+  display: inline-block;
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  border: solid 2px;
+  position: relative;
+  top: 340px;
+  right: 228px;
+}
+
+#bigText4 {
+  font-size: x-large;
+  position: relative;
+  left: 20px;
+  width: fit-content;
+  margin: 0px;
+  top: 10px;
+}
+
+#container4 {
+  height: 335px;
+  width: 95vw;
+  border: dashed darkblue 2px;
+  margin: 20px;
+}
+
+#box1 {
+  display: inline-block;
+  box-sizing: content-box;
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  border: 3px solid;
+  background-color: rgb(236, 201, 156);
+
+}
+
+#nesting1 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: solid 2px;
+  background-color: green;
+}
+
+#nesting2 {
+  display: inline-block;
+  box-sizing: content-box;
+  height: 160px;
+  width: 160px;
+  margin: 0px;
+  border: 0px solid;
+  background-color: rgb(151, 6, 1);
+  position: relative;
+  left: 45px;
+  top: 45px;
+}
+
+#nesting3 {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: solid 0px;
+  background-color: blue;
+}
+
+#nesting4 {
+  font-size: medium;
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  left: 25px;
+}
+
+#img3 {
+ width: 50px;
+ height: 50px;
+ position: relative;
+ left: 30px;
+ top: 30px;
+}
+
